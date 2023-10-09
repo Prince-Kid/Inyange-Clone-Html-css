@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.nav{
+  background: cadetblue;
+  border-bottom: 4px solid deepskyblue;
+  position: fixed;
+  height: 65px;
+  width: 100%;
+  top: 0;
+
+}
+.container{
+ margin-right: 90px;
+
+}
+.nav ul{
+	display: inline-flex;
+
+}
+.nav ul li{
+	list-style: none;
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	color: ghostwhite;
+	text-transform: uppercase;
+
+}
+.nav .logo  {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 3px;
+}
+.sub-menu-1{
+	display: none;
+}
+.nav ul li a{
+	padding: 4px;
+
+}
+.nav ul li a.active,
+.nav ul li a:hover{
+	background: darkblue;
+    background: deepskyblue;
+	color: white;
+	border-radius: 0px;
+	width: auto;
+	
+	transition: .5s;
+    
+}
+.nav ul li:hover .sub-menu-1{
+	display: block;
+	background: cadetblue;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: -10px;
+
+}
+.nav ul li:hover .sub-menu-1 ul{
+	display: block;
+	width: 150px ;
+}
+.nav ul li:hover .sub-menu-1 ul li{
+	list-style: none;
+	padding :2px;
+	border-bottom: 1px dotted;
+}
+.nav ul li:hover .sub-menu-1 ul li a{
+	color: ghostwhite;
+	padding: 4px;
+
+}
+.nav ul li:hover .sub-menu-1 ul li a:hover{
+	color: ghostwhite;
+	background: deepskyblue;
+
+}
+
+.product-section{
+	background: deepskyblue;
+	width: auto;
+	margin-top: 100px;
+    padding: 50px;
+    height: auto;
+    margin-bottom: 0px;
+
+}
+.small-container{
+	align-content: center;
+}
+.small-container h2{
+	text-align: center;
+	margin: 15px;
+	color: ghostwhite;
+}
+.col-sm {
+ 
+    padding: px;
+   
+    height:auto;
+    max-width: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    background: radial-gradient(deepskyblue,ghostwhite,white);
+    box-shadow: 20px;
+}
+.row{
+		
+		text-align: center;
+		margin-bottom: 20px;
+}
+.col-sm img{
+   width:75% ;
+   margin-top: 20px;
+   	
+ 
+}
+.col-3:first-child{
+	margin-left: 150px;
+
+}
+.ban img{
+	width: 20%;
+
+}
+.col-3:Last-child img{
+	width: 90%;
+
+}
+.col-sm{
+	
+	text-align: center;
+}
+.card-body{
+	
+}
+.col-sm button{
+	 display: inline-flex;
+	 margin-bottom: 20px;
+	 
+}
+.card{
+	background: radial-gradient(deepskyblue,ghostwhite,white)
+}
+.col-sm img:hover{
+	
+	transform:translateY(-10px);
+	transform: scale(1.5);
+	transition:2s all;
+}
+
+
+.container h2{
+	text-align: center;
+	color: ghostwhite;
+}
+
+.gallery {
+	border: 3px solid cadetblue;
+	margin: 15px;
+	float: left;
+	width: 220px;
+	padding: 20px;
+	background: radial-gradient(deepskyblue,ghostwhite,white);
+	height: 220px;
+}
+
+.gallery img{
+	 	width: 110%;
+	 	height: 100%;
+}
+.gallery .desc{
+	padding: 15px;
+	text-align: center;
+
+
+}
+.gallery .desc button{
+ margin-bottom: 700px;
+}
+
+.Featured-Product{
+		
+	border: 2px solid cadetblue;
+	width: auto;
+	margin-top: 200px;
+	background: deepskyblue;
+	float: left;
+	margin-left: 100px;
+}
+
+h6 {
+	text-align: center;
+	
+}
+h6 a{
+	
+   color: ghostwhite;
+}
+.container{
+
+
+}
+
+.inyange-desc{
+	margin-top: 0px;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+.inyange-desc-1 h2{
+	margin-top: 10px;
+	color: deepskyblue;
+	text-transform: uppercase;
+}
+.inyange-desc-1 hr{
+	background: radial-gradient(deepskyblue,blueviolet,lightyellow);
+	font-weight: bold;
+	font-size: 200px;
+}
+.products{
+	margin-bottom: px;
+}
+.location .row .col-sm-3{
+	padding: 20px;
+	margin-right: 250px;
+	border: 2px solid red;
+}
+.location .row .col-sm-3 .desc{
+	margin-bottom: 200px;
+}
+.location .row {
+
+	margin-left: 0px;
+}
+
+.uparallax_block {
+    height: 280px;
+    margin: 20px 0px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.uparallax_block img {
+    transform: scale(1);
+    transition-duration: 500ms;
+}
+
+.uparallax_block .caption {
+    width: 50%;
+    height: 100%;
+    color: #fefefe;
+    background: rgba(255,255,255,.2);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    padding: 10px 10px 15px 10px;
+    transition: background 800ms;
+}
+.uparallax_block .caption h3 {
+    font-size: 22px;
+    margin: 0px;
+    padding: 3px 0px;
+}
+
+.uparallax_block .caption p {
+    color: #fff;
+    padding: 8px 0px 5px 0px;
+}
+
+.uparallax_block .caption footer {
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #09B6F9;
+}
+
+header{display:block;
+}
+
+.burf{
+	background: deepskyblue;
+	width: auto;
+	margin-top: 200px;
+    margin-bottom: 0;
+    padding: 15px;
+}
+.last{
+
+	width: 800px;
+}
